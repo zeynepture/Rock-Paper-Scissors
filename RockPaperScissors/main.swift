@@ -29,11 +29,11 @@ class game
         switch randomInt
         {
         case 1:
-            gamer1 = .scissors
-        case 2:
             gamer1 = .rock
-        case 3:
+        case 2:
             gamer1 = .paper
+        case 3:
+            gamer1 = .scissors
         default:
             break
         }
